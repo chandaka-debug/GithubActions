@@ -1,1 +1,13 @@
+name: sample Git Actions
+on: [push]
+jobs:
+  ubuntu:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "Hello, world!"
+
+  windows:
+    runs-on: windows-latest
+    steps:
+    - run: echo "Hello, world!"
 
