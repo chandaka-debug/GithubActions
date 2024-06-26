@@ -1,0 +1,11 @@
+name: sample Git Actions
+on: [pull_request]
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+    - run: echo "Hello, world!"
+    - run: echo "This is a sample action"
+    - run: echo "Today is $(date)"  
+    - run: date
+
